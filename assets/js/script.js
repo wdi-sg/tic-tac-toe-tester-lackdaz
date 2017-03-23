@@ -30,11 +30,11 @@ $(document).ready(function() {
         if (this.player === 1) {
           this.grid[index] = 'X'
           $grid[index].textContent = 'X'
-          // player = 2
+          this.player = 2
         } else {
           this.grid[index] = 'O'
           $grid[index].textContent = 'O'
-          // player = 1
+          this.player = 1
         }
         return true
       } else {
