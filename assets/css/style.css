@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  margin: 0 auto;
+  text-align: center
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 800px
+  width: 90%;
+  background-color: yellow;
+}
+
+.grid {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  background-color:blue;
+  width: 120px;
+  height: 120px;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 60px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.row {
+  margin: 0 auto;
+  max-width: 400px;
+  max-height: 400px;
+  display: ;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>English Calculator</h1>
+    <label for "firstNum">First Number</label>
+    <input type="text" name="firstNum" id="firstNum" placeholder="Key in a number">
+
+    <label for="operator">Operator</label>
+    <input type="text" name="operator" id="operator" placeholder="+ or - or / or *">
+
+    <label for="secondNum">secondNum</label>
+    <input type="text" name="secondNum" id="secondNum" placeholder="Key in another number">
+
+    <button type="button" name="button">Calculate</button>
+
+    <h2>Result</h2>
+    <p id="result"></p>
+    <script src="script.js" charset"utf-8"></script>
+  </body>
+</html>
